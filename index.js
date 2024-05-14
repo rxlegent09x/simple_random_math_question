@@ -18,7 +18,8 @@ const srmq = get_Q();
 
 res.json({
     "question":srmq[0],
-    "answer":srmq[1]
+    "answer":srmq[1],
+    status:"true"
 });
 
 });
