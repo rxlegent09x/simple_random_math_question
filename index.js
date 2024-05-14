@@ -17,8 +17,8 @@ app.get("/", (req, res) => {
 const srmq = get_Q();
 
 res.json({
-    "quest":srmq[0],
-    "ans":srmq[1]
+    "question":srmq[0],
+    "answer":srmq[1]
 });
 
 });
